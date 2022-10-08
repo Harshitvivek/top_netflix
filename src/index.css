@@ -135,9 +135,22 @@ a{
 @media screen and (max-width: 450px) {
   .Card
   {
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px;
     margin-top: 50px;
+    margin-left: 8%;
+    margin-right: 8%;
+    height:320px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .Card
+  {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
     height:320px;
   }
 }
